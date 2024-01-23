@@ -14,7 +14,7 @@ class BaseConfig:
 
 
 class DevelopmentConfig(BaseConfig):
-    CELERY_TASK_ALWAYS_EAGER: bool = True
+    CELERY_TASK_ALWAYS_EAGER: bool = False
     pass
 
 
